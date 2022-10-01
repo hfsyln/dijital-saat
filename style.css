@@ -40,3 +40,29 @@ span{
     height: 10vh;
     
 }
+.alarm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input {
+    width: 5vw;
+    height: 5vh;
+    background-color: azure;
+    border: none;
+    outline: none; 
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+p {
+    margin-top: 5px;
+}
+.gün {
+    width: 15vw;
+    height: 5vh;
+    background-color: azure;
+    border: none; 
+    outline: none; 
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
