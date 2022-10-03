@@ -11,7 +11,7 @@
     <h2>DIGITAL CLOCK</h2>
     <div class="kapsayıcı">
         <div class="hour clock"></div>
-        
+        <span>:</span>
         <div class="minutes clock"></div>
         <span>:</span>
         <div class="second clock"></div>
@@ -19,15 +19,17 @@
     <div class="date">
     
     </div>
-    <h1>Alarm:</h1>
     <div class="alarm">
-      <input class="saat" type="text" value="">
-      <p>:</p>
-      <input class="dakika" type="text">
+        <h3>ALARM:</h3>
+        <input class="saat" type="text" value="" placeholder="hour" >
+        <p style="margin-top: 1.3rem; font-size:2rem">:</p>
+        <input class="dakika" type="text" value="" placeholder="minutes" >
+        <button class="buton" type="submit">Active</button>
+        <button class="buton2" type="submit">Düzenle</button>
     </div>
-    <h5>Gün:</h5>
-    <input class="gün" type="text">
-    <audio src="" autoplay ></audio>
+    <div class="uyarı"></div>
+    
+    <audio src="tarkan.mp3" ></audio>
 <script src="app.js"></script>
 </body>
 </html>

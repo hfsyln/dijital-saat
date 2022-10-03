@@ -40,29 +40,33 @@ span{
     height: 10vh;
     
 }
-.alarm {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+
+.alarm{
+display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+
+
 }
 input {
-    width: 5vw;
-    height: 5vh;
-    background-color: azure;
-    border: none;
-    outline: none; 
-    padding-left: 20px;
+    width: 7rem;
+    height: 5rem;
     font-size: 1.5rem;
+    text-align: center;
 }
-p {
-    margin-top: 5px;
+button{
+    margin-top: 10px;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: coral;
 }
-.gün {
-    width: 15vw;
-    height: 5vh;
-    background-color: azure;
-    border: none; 
-    outline: none; 
-    padding-left: 20px;
+h3 {
+    margin-top: 2rem;
+}
+.uyarı {
+    color: rgb(99, 20, 20);
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
